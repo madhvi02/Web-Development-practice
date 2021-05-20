@@ -5,7 +5,7 @@ const router=express.Router();
 router.get('/',home_controller.home);
 
 
-
+router.use('/users',require('./users'));
 
 
 
